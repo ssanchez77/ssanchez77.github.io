@@ -12,3 +12,9 @@ github_username:  ssanchez77
 
 # Build settings
 markdown: kramdown
+
+# Includes
+include: .htaccess
+
+# Other settings
+timezone: America/Costa_Rica
