@@ -5,7 +5,7 @@ description: >
   Notas y tips sobre programación, en español.
   Este es un simple cuaderno de notas, en donde publicaré apuntes
   acerca de conceptos y resolución de problemas de mi día a día.
-baseurl: "/notas" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://simon-sanchez.com" # the base hostname & protocol for your site
 twitter_username: ssanchez77
 github_username:  ssanchez77
