@@ -1,6 +1,6 @@
 # ¿Cómo nació este chiquito?
 
-Este repositorio se transforma automáticamente (por medio de Jekyll) en un sitio estático cada vez que hago push a GitHub. ¡Increíble!
+Este repositorio se transforma automáticamente (por medio de [Jekyll](http://jekyllrb.com/)) en un sitio estático cada vez que hago push a [GitHub](https://github.com/). ¡Increíble!
 
 Como muchos programadores están experimentando recientemente, yo había llegado al punto del aburrimiento, por tener que estar instalando y dando mantenimiento a un CMS con tal de poder publicar mis pensamientos.
 
@@ -17,7 +17,6 @@ Así fue como nació este blog de notas, o "Libreta de Apuntes".
 Los siguiente folders y su contenido son propiedad intelectual de Simón R. Sánchez Segura. No deben ser utilizados de ninguna manera sin mi autorización:
 
 * _posts/
-
 * _draft/
 
-Todavía estoy viendo cómo clasificar la carpeta images/. Todos los demás directorios y archivos están bajo la Licencia MIT. Siéntase libre de utilizar el HTML y CSS como desee. Si lo hace, un enlace hacia http://github.com/mojombo/jekyll será apreciado, pero no es requerido.
+Todavía estoy viendo cómo clasificar la carpeta images/. Todos los demás directorios y archivos están bajo la Licencia MIT. Siéntase libre de utilizar el HTML y CSS como desee. Si lo hace, un enlace hacia [http://github.com/mojombo/jekyll](http://github.com/mojombo/jekyll) será apreciado, pero no es requerido.
