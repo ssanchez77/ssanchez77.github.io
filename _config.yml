@@ -1,6 +1,6 @@
 # Site settings
 title: Cuaderno de Apuntes
-email: ssanchez77[arroba]gmail.com
+email: ssanchez77@gmail.com
 description: >
   Notas y tips sobre programación, en español.
   Este es un simple cuaderno de notas, en donde publicaré apuntes
@@ -12,9 +12,10 @@ github_username:  ssanchez77
 
 # Build settings
 markdown: kramdown
+excerpt_separator: <!--more-->
 
 # Includes
-include: .htaccess
+include: [.htaccess]
 
 # Other settings
 timezone: America/Costa_Rica
