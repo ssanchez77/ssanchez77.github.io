@@ -8,7 +8,9 @@ categories: general
 ---
 Si usted es como yo, que diariamente tiene que lidiar con el cambiante mundo de la informática, seguramente pasará la mitad de su tiempo frustrado porque no logra ponerse al día con el ritmo en que nuevas cosas aparecen. Admítalo: aquellas herramientas que tanto se ha esforzado en dominar se vuelven obsoletas cada vez que sus amigos le cantan cumpleaños.
 
->¡El entorno de trabajo del programador actual es una locura!
+<!--more-->
+
+>¡El ambiente de trabajo del programador actual es una locura!
 
 A menos que usted sea un genio o un adicto al trabajo (que no faltará más de uno) cada vez que llegan las vacaciones de fin de año sale disparado hacia algún lugar alejado de la ciudad, deseando que al regresar el Internet haya colapsado y pueda dedicarse a cultivar zanahorias en un hermoso terreno a la orilla de un arroyo. ¿No le pasa eso? Bueno, a mí sí.
 
