@@ -1,6 +1,7 @@
 /**
  * Reset Basic Elements.
  */
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
@@ -11,6 +12,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic Styling.
  */
+
 body {
     font-family: $base-font-family;
     font-size: $base-font-size;
@@ -24,16 +26,23 @@ body {
 /**
  * Set Margin Bottom for Vertical Rhythm.
  */
-h1, h2, h3, h4, h5, h6,
+
+h1, h2, h3, h4, h5, h6, hr,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
 
+hr {
+    margin-top: $spacing-unit;
+    width: 40%;
+}
+
 /**
  * Images and Figures.
  */
+
 img {
     max-width: 100%;
     vertical-align: middle;
@@ -50,6 +59,7 @@ figcaption {
 /**
  * Lists.
  */
+
 ul, ol {
     margin-left: $spacing-unit;
 }
@@ -64,22 +74,23 @@ li {
 /**
  * Headers.
  */
+
 h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans';
     font-weight: bold;
-    margin: 0px;
 }
 
 h1 {font-size: 1.9em !important;}
-h2, {font-size: 1.5em !important;}
+h2 {font-size: 1.5em !important;}
 h3 {font-size: 1.3em;}
 h4 {font-size: 1em;}
 h5 {font-size: .9em;}
 h6 {font-size: .8em;}
 
-
 /**
  * Links.
  */
+
 a {
     color: darken($brand-color, 10%);
     text-decoration: none;
@@ -93,16 +104,17 @@ a {
 /**
  * Block Quotes.
  */
+
 blockquote {
-    display:block;
+    display: block;
     background: #fff;
-    padding: 20px 20px 10px 45px;
-    margin: 0 0 20px;
+    padding: 20px 35px 10px 75px;
+    margin: 40px 0;
     position: relative;
 
     // Borders - (Optional).
-    border-left: 15px solid $grey-color;
-    border-right: 2px solid $grey-color;
+    border-left: 15px solid $brand-color;
+    border-right: 2px solid $brand-color;
 
     // Box Shadow - (Optional).
     /*
@@ -113,6 +125,7 @@ blockquote {
 
     // Use italic.
     font-style: italic;
+    color: #555;
 
     &::before {
         // Unicode for Left Double Quote.
@@ -120,40 +133,40 @@ blockquote {
 
         // Font.
         font-family: Georgia, serif;
-        font-size: 48px;
+        font-size: 80px;
         font-weight: bold;
-        color: #999;
+        color: $brand-color;
 
         // Positioning.
         position: absolute;
         left: 10px;
-        top:5px;
+        top: 0;
     }
 
     &::after {
       // Reset to make sure.
       content: "";
     }
-
+/*
     a {
         text-decoration: none;
         background: #eee;
         cursor: pointer;
         padding: 0 3px;
-        color: #c76c0c;
+        color: $brand-color;
         &:hover{
          color: #666;
         }
-    }
-
+    }*/
 }
 
 /**
  * Code Blocks.
  */
+
 pre,
 code {
-    font-size: 13px;
+    font-size: $base-font-size - 4px;
     border: 1px solid $grey-color-light;
     font-family: Menlo, Monaco, "Andale Mono", serif;
 }
@@ -167,6 +180,7 @@ code {
 pre {
     border-radius: 3px;
     padding: 8px 12px;
+    margin: 25px 0;
     overflow-x: scroll;
     background-color: #F5F5F5;
 
@@ -181,6 +195,7 @@ pre {
 /**
  * Wrapper.
  */
+
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -201,6 +216,7 @@ pre {
 /**
  * Clear Fix.
  */
+
 %clearfix {
 
     &:after {
@@ -213,6 +229,7 @@ pre {
 /**
  * Tables.
  */
+
 table {
     border-collapse: collapse;
     border-spacing: 0
@@ -243,6 +260,7 @@ margin: 0 auto 1.5em auto
 /**
  * Icons.
  */
+
 .icon {
     > svg {
         display: inline-block;
