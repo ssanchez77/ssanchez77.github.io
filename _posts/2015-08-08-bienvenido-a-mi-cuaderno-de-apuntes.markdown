@@ -4,8 +4,10 @@ title:  "¡Bienvenido a mi libreta de apuntes!"
 permalink: bienvenido-a-mi-libreta-de-apuntes
 date:   2015-08-08 19:37:44
 comments: true
-categories: general
+categories:
+- general
 ---
+
 Si usted es como yo, que diariamente tiene que lidiar con el cambiante mundo de la informática, seguramente pasará la mitad de su tiempo frustrado porque no logra ponerse al día con el ritmo en que nuevas cosas aparecen. Admítalo: aquellas herramientas que tanto se ha esforzado en dominar se vuelven obsoletas cada vez que sus amigos le cantan cumpleaños.
 
 <!--more-->

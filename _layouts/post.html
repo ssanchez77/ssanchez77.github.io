@@ -23,7 +23,9 @@ layout: default
       {% endcase %}
       {{ page.date | date: "%-d," }}
       {{ page.date | date: "%Y" }}
-      {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}
+      {% if page.author %} • {{ page.author }}{% endif %}
+      {% if page.meta %} • {{ page.meta }}{% endif %}
+      {% if page.categories %} • {{ page.categories | join: ', ' }}{% endif %}
     </p>
   </header>
 

@@ -4,8 +4,11 @@ title:  "AMP Básico en OSX"
 permalink: amp-basico-en-osx
 date:   2015-09-15 15:07:12
 comments: true
-categories: general
+categories:
+- general
+- osx
 ---
+
 AMP son las conocidas siglas para referirse a un entorno de trabajo que incorpora _Apache, MySQL y PHP_. Esto se puede instalar y configurar en Windows, Linux y Mac OSX.
 
 Un equipo en donde AMP esté operando correctamente funciona como _Servidor Web_, y se usa para desarrollar y probar sitios web localmente, simulando el comportamiento que tendrán luego cuando sean migrados a servidores de hospedaje, en los cuales harán uso de estas mismas tres tecnologías.
@@ -35,6 +38,60 @@ apachectl start
 {% endhighlight %}
 
 Para comprobar que Apache está activo, al ingresar a [http://localhost](http://localhost) deveriamos ver el siguiente mensaje: **"It works!"**
+
+Desde la consola se puede ver cuál es la versión actual de Apache, por medio del siguiente comando:
+
+{% highlight bash %}
+httpd -v
+{% endhighlight %}
+
+## Directorio raíz de Apache
+
+El _DocumentRoot_ (directorio raíz) es el lugar donde se almacenan los archivos que nuestro servidor va a compartir. Es el equivalente a `public_html` y `htdocs`.
+
+OSX ha tenido históricamente dos directorios raíz: uno a nivel de sistema y otro a nivel de usuario. Podemos usar ambos o solamente trabajar con uno.
+
+La ventaja de usar el de nivel de usuario es que cada usuario tiene su propia carpeta raíz independiente, mientras que el que está a nivel sistema es global para todos. Además cuando usamos el de nivel de usuario no hay que estar escribiendo la contraseña de administrador cada vez que queremos hacer una modificación a los archivos dentro de la carpeta raíz.
+
+La ruta de la carpeta raíz a nivel de sistema es la siguiente:
+
+{% highlight bash %}
+/Library/WebServer/Documents/
+{% endhighlight %}
+
+La carpeta raíz de usuario puede estar donde uno desee, pero tradicionalmente se utiliza `~/Sites`, es decir una carpeta llamada `Sites` creada en la carpeta del usuario específico. Por ejemplo, en mi caso sería `\Users\ssanchez\Sites` porque `ssanchez` es mi nombre de usuario.
+
+El directorio raíz de nivel de usuario no está habilitado por defecto, sino que hay que hacerlo manualmente.
+
+Para eso debemos ingresar en `/etc/apache2/users` y crear un archivo que tenga el nombre de nuestro usuario y la extensión `.conf`.
+
+En mi caso sería así:
+
+{% highlight bash %}
+cd /etc/apache2/users
+nano ssanchez.conf
+{% endhighlight %}
+
+A este archivo le agregamos las siguientes líneas:
+
+{% highlight bash %}
+<Directory "direccion-de-la-carpeta">
+AllowOverride All
+Options Indexes MultiViews FollowSymLinks
+Require all granted
+</Directory>
+{% endhighlight %}
+
+> Recuerde cambiar `direccion-de-la-carpeta` por la dirección de SU carpeta. En mi caso ya vimos que es `/Users/ssanchez/Sites/`.
+
+Finalmente hay que modificar los permisos del archivo y reiniciar Apache. Nuevamente uso el nombre de _mi_ archivo como ejemplo.
+
+{% highlight bash %}
+chmod 644 ssanchez.conf
+apachectl restart
+{% endhighlight %}
+
+Ahora el contenido de `Sites` es accesible desde la URL: `http://localhost/~ssanchez/`
 
 ## Habilitar PHP para Apache
 
@@ -100,10 +157,11 @@ ln -s /tmp/mysql.sock mysql.sock
 
 Hay otras configuraciones de Apache que uno quizá podría querer modificar, pero no nos vamos a meter en eso por ahora.
 
-Lo que sí sería más interesante y práctico para trabajar en desarrollo de proyectos localmente, es la creación de Virtual Hosts.
+Lo que sí sería más interesante y práctico para trabajar en desarrollo de proyectos localmente, es la creación de [Virtual Hosts](/virtual-hosts-en-mac).
 
 ---
 Enlaces para referencias adicionales:
 
 * [Blog de Jason McCreary](http://jason.pureconcepts.net/2014/11/install-apache-php-mysql-mac-os-x-yosemite/).
 * [Coolest Guides on the Planet](http://coolestguidesontheplanet.com/upgrade-mysql-database-5-5-5-6-osx-10-8-mountan-lion/).
+* [TechTastico](http://techtastico.com/post/instalar-apache-php-mysql-mavericks/).
