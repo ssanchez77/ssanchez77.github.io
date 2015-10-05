@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Virtual Host en Mac"
+title:  "Virtual Hosts en Mac"
 permalink: virtual-hosts-en-mac
 date:   2015-10-01 10:35:24
 comments: true
@@ -19,7 +19,7 @@ Pero, ¿qué pasa si se está trabajando con alguna característica que requiere
 
 Los virtual hosts nos permiten utilizar nuestro servidor web para atender dominios locales (sólo disponibles para nosotros).
 
-> Antes de configurar los Virtual Host en Yosemite, Mavericks o Mountain Lion, es necesario tener al menos [Apache](/amp-basico-en-osx) funcionando en nuestro ambiente de desarrollo local.
+> Antes de configurar los Virtual Hosts en Yosemite, Mavericks o Mountain Lion, es necesario tener al menos [Apache](/amp-basico-en-osx) funcionando en nuestro ambiente de desarrollo local.
 
 El primer paso es habilitar los vhosts desde el archivo de configuración de Apache `httpd.conf`.
 
