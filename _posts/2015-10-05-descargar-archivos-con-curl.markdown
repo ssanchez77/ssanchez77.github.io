@@ -12,7 +12,7 @@ Posiblemente le ha pasado que está descargando un archivo desde su navegador fa
 
 > ¡Murphy, eres despreciable!
 
-Peor aún si lo que estamos bajando es la imagen de una máquina virtual, el installador de una distribución de Linux, un disco de [Ektoplazm](http://www.ektoplazm.com/), o cualquier cosa que pese más de 100 MB.
+Peor aún si lo que estamos bajando es la imagen de una máquina virtual, el instalador de una distribución de Linux, un disco de [Ektoplazm](http://www.ektoplazm.com/), o cualquier cosa que pese más de 100 MB.
 
 ¿Existe una manera fácil de reiniciar la descarga de un archivo sin mucho enredo? ¡Definitivamente! Y todo gracias a la todopoderosa consola y a un comando llamado `cURL`.
 
