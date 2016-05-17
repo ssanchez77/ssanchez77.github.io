@@ -2,7 +2,7 @@
 
 Este repositorio se transforma automáticamente (por medio de [Jekyll](http://jekyllrb.com/)) en un sitio estático cada vez que hago push a [GitHub](https://github.com/). ¡Increíble!
 
-Como muchos programadores están experimentando recientemente, he llegado al punto del aburrimiento, por tener que estar instalando y dando mantenimiento a un CMS como condición para poder publicar mis pensamientos.
+Como muchos programadores están experimentando recientemente, estoy cansado de instalar y dar mantenimiento a un CMS  para poder publicar cualquier cosa en el web.
 
 Además, el proceso de redacción usando botones, controles y diálogos termina siendo un estorbo cuando uno _simplemente desea escribir_.
 

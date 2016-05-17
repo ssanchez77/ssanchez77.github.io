@@ -30,7 +30,7 @@ Encontré que una Aplicación llamada `Anywhere!` permite virtualizar la platafo
 
 Sin embargo `Anywhere!` sólo se puede instalar si al dispositivo se le ha aplicado el `Jailbreak`.
 
-# Jailbreak
+## Jailbreak
 
 Según Wikipedia:
 
@@ -44,7 +44,7 @@ La idea es permitir al usuario "descargar aplicaciones, extensiones y temas que 
 
 Lo que queremos lograr por medio del `Jailbreak` es tener en nuestro iPhone una aplicación llamada [Cydia](https://cydia.saurik.com/), que es el equivalente no oficial de la App Store, por medio de la cual vamos a conseguir todos estos recursos que no están disponibles a través de Apple.
 
-# Pangu
+## Pangu
 
 Por dicha para instalar `Cydia` ya existe un software para Windows y para Mac, que uno descarga y ejecuta, y que se encargará de detectar el iPhone y guiarnos paso a paso. El nombre de este programa es [Pangu](http://en.pangu.io/), y está disponible para hacer `Jailbreak` de iOS 7, 8 y 9.
 
@@ -52,7 +52,7 @@ En mi caso, tuve que hacer varios intentos hasta que finalmente el procedimiento
 
 Luego volvió a fallar porque el iPhone tardó mucho en reiniciarse. Como al tercer o cuarto intento ya todo salió bien, y `Cydia` me apareció entre las Apps disponibles. Lo bueno fue que no hubo ningún problema con el sistema cuando el proceso falló, así que al menos en mi caso, `Pangu` me funcionó de lo más bien.
 
-# Anywhere! con Cydia
+## Anywhere! con Cydia
 
 Una vez que ya pude abrir `Cydia`, busqué `Anywhere!` y no lo pude encontrar por ninguna parte (¡qué ironía!...). Luego de travesear un par de cosas, hice el refrescamiento (Actualizar) de las Fuentes, y ahora sí, ya encontré `Anywhere!`.
 

@@ -18,7 +18,7 @@ Peor aún si lo que estamos bajando es la imagen de una máquina virtual, el ins
 
 <!--more-->
 
-# ¿Qué es cULR?
+## ¿Qué es cULR?
 
 Es una herramienta software para transferencia de archivos con sintaxis URL. Es decir, sirve para realizar acciones sobre archivos que hay en URLs de Internet. Soporta los protocolos más comunes, como http, ftp, https, etc.
 
@@ -28,7 +28,7 @@ cURL existe como un comando disponible desde el intérprete (consola o terminal)
 
 Para nuestros efectos, lo que nos interesa de `cURL` es que sirve para encontrar un archivo cuya URL conocemos, y descargarlo a nuestra computadora.
 
-# Instalando cURL en OSX
+## Instalando cURL en OSX
 
 Si usted tiene OSX Yosemite, mala suerte: ya `cURL` viene instalado, así que no hay más diversión por este lado.
 
@@ -40,7 +40,7 @@ Para conocer la versión de `curl` que tiene instalada, simplemente ejecutamos e
 curl -V
 {% endhighlight %}
 
-# Ahora sí, a descargar nuestro archivote
+## Ahora sí, a descargar nuestro archivote
 
 Aunque `cURL` tiene chorromil [parámetros / opciones](http://curl.haxx.se/docs/manpage.html), nada más vamos a utilizar dos:
 

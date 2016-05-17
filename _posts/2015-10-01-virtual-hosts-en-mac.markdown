@@ -30,7 +30,8 @@ sudo nano /etc/apache2/httpd.conf
 Hay que quitar el comentario de la siguiente línea:
 
 {% highlight bash %}
-# Virtual hosts
+
+## Virtual hosts
 
 Include /private/etc/apache2/extra/httpd-vhosts.conf
 {% endhighlight %}
@@ -71,7 +72,8 @@ sudo nano /etc/hosts
 En mi ejemplo tendríamos que agregar esto:
 
 {% highlight bash %}
-# Sandboxes
+
+## Sandboxes
 
 127.0.0.1 sandbox.d7
 {% endhighlight %}

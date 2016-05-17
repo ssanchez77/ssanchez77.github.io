@@ -167,6 +167,17 @@
     > li {
         display: block;
         padding: 0.1em 1.5em;
+        border-bottom: 1px solid #888;
+
+        .post-meta {
+            margin-left: 1.5em;
+        }
+        h2 {
+            margin-left: 1em;
+        }
+        &:last-child {
+            border-bottom: none;
+        }
     }
 
 }

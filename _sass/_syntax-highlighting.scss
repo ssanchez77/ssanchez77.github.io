@@ -73,3 +73,8 @@
     .vi { color: #000000 } /* Name.Variable.Instance */
     .il { color: #0000cf; font-weight: bold } /* Literal.Number.Integer.Long */
 }
+
+/* Make line numbers unselectable: excludes line numbers from copy-paste user ops. */
+.highlight .lineno {-webkit-user-select: none;-moz-user-select: none; -o-user-select: none;}
+.lineno::-moz-selection {background-color: transparent;} /* Mozilla specific */
+.lineno::selection {background-color: transparent;} /* Other major browsers */
