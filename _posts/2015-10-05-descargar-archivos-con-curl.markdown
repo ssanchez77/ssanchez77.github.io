@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Descargar archivos con cURL"
+title: "Descargar archivos con cURL"
 permalink: descargar-archivos-con-curl
-date:   2015-10-05 12:20:44
+date: 2015-10-05 12:20:44
 comments: true
 categories:
 - general

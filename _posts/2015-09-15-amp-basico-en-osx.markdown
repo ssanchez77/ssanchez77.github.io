@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "AMP Básico en OSX"
+title: "AMP Básico en OSX"
 permalink: amp-basico-en-osx
-date:   2015-09-15 15:07:12
+date: 2015-09-15 15:07:12
 comments: true
 categories:
 - general

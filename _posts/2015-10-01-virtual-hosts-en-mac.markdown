@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Virtual Hosts en Mac"
+title: "Virtual Hosts en Mac"
 permalink: virtual-hosts-en-mac
-date:   2015-10-01 10:35:24
+date: 2015-10-01 10:35:24
 comments: true
 categories:
 - general

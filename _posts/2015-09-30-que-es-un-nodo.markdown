@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "¿Qué es un nodo?"
+title: "¿Qué es un nodo?"
 permalink: que-es-un-nodo
-date:   2015-09-30 19:42:05
+date: 2015-09-30 19:42:05
 comments: true
 categories:
 - drupal

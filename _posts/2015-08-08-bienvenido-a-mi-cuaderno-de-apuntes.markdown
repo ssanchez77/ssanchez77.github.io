@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "¡Bienvenido a mi libreta de apuntes!"
+title: "¡Bienvenido a mi libreta de apuntes!"
 permalink: bienvenido-a-mi-libreta-de-apuntes
-date:   2015-08-08 19:37:44
+date: 2015-08-08 19:37:44
 comments: true
 categories:
 - general

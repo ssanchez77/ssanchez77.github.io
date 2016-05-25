@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Hearthstone en iPhone 4"
+title: "Hearthstone en iPhone 4"
 permalink: hearthstone-en-iphone-4
-date:   2015-10-14 21:47:25
+date: 2015-10-14 21:47:25
 comments: true
 categories:
 - ios
