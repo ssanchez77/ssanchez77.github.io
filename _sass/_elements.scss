@@ -7,3 +7,9 @@
   margin: $half-spacing-unit 0 $half-spacing-unit $spacing-unit;
   width: $spacing-unit * 10;
 }
+
+#add-new-custom-field, #custom-field-elements {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
